@@ -33,7 +33,7 @@ class Classmate(Person):
         self.classmate_name = classmate_name
     def introduce(self):
         print(f" Привет, меня зовут {self.name}, мне {self.age} лет, я одноклассник {self.classmate_name},"
-              f" учились вместе в {self.group_name}, я родился {self.birth_date}, работаю {self.occupation}"
+              f" учились вместе в {self.group_name}, я родился {self.birth_date}, работаю {self.occupation},"
               f" у меня {self.higher_education} высшее образования")
 
 class Friend(Person):
@@ -43,7 +43,7 @@ class Friend(Person):
         self.friend_name = friend_name
     def introduce(self):
         print(f" Привет, меня зовут {self.name}, мне {self.age} лет, я друг {self.friend_name},"
-              f" наше любимое хобби  {self.hobby}, я родился {self.birth_date}, работаю {self.occupation}"
+              f" наше любимое хобби  {self.hobby}, я родился {self.birth_date}, работаю {self.occupation},"
               f" у меня {self.higher_education} высшего образования")
 
 
@@ -62,3 +62,4 @@ people = [
 ]
 for person in people:
     person.introduce()
+
