@@ -27,6 +27,7 @@ class ContactList:
             contact for contact in cls.all_contact
             if contact.contact_id != contact_id
         ]
+
         if len(cls.all_contact) == len_contact:
             print(f"Ошибка: Контакт с ID {contact_id} не найден.")
 
