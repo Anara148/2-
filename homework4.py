@@ -31,7 +31,6 @@ class ContactList:
         if len(cls.all_contact) == len_contact:
             print(f"Ошибка: Контакт с ID {contact_id} не найден.")
 
-
 print(ContactList.all_contact)
 ContactList.add_contact("Вася Печкин", "0700100200")
 ContactList.add_contact("Виктор Цой", "0500123456")
@@ -42,8 +41,8 @@ for contact in ContactList.all_contact:
 
 print(ContactList.last_id)
 
-ContactList.add_contact("Вася Пупкин", "0700100200")
-ContactList.add_contact("Виктор Цой", "0500123456")
+ContactList.add_contact("Вася Пупкин", "0703100222")
+ContactList.add_contact("Виктор Романов", "0501123459")
 ContactList.add_contact("Саша Трусова", "0702101200")
 print(ContactList.last_id)
 
