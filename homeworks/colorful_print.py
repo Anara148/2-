@@ -19,4 +19,3 @@ person3 = Person("Мунира", 29.11, "Доктор", True)
 person1.introduce()
 person2.introduce()
 person3.introduce()
-
