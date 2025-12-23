@@ -4,3 +4,7 @@
 __pycache__/
 test.txt
 .idea
+
+*.db
+*.sqlite
+*.sqlite3
